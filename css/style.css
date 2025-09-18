@@ -4,42 +4,90 @@
     box-sizing: border-box;
 }
 
+.debug{
+    *{
+        border: 1px dashed;
+    }
+}
+
 body{
     font-family: sans-serif;
+}
+
+[class^="col-"]{
+    height: 600px;
+}
+
+
+section{
+    padding: 160px 0;
 }
 
 /* hedear*/
 
 header{
     height: 6rem;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    .bg-1{
+    gap: 1rem;
+    display: flex;
 }
 
-.bg-1{
+}
+
+
+.list-unstyled{
+    list-style: none;
+    display: flex;
     gap: 1rem;
+}
+
+.info{
+    text-decoration: none;
+    color: black;
+}
+
+.bt-inizia{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+}
+
+
+
+/*main*/
+
+.jumbotron{
+    height: 750px;
+    background-color: #b4d0e6;
+    padding: 5rem;
+}
+
+.container{
+
+    width: 90%;
+    margin: auto;
 }
 
 .d-flex{
     display: flex;
 }
 
-.logo{
-    margin-left: 1rem;
+h1{
+    font-size: 4rem;
+    width: 60%;
+    margin-left: 20rem;
 }
 
-.list-unstyled{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-right: 2rem;
-}
-
-a{
-    text-decoration: none;
-    color: black;
+.main-paragraph{
+    width: 20%;
+    margin-left: 20rem;
 }
 
 .bt-blue{
@@ -49,58 +97,147 @@ a{
     border-width: 0.5rem;
 }
 
-/*main*/
 
-.container{
-    width: 100%;
-    margin: auto;
-    height: 50rem;
-    background-color: #b4d0e6;
-    padding: 5rem;
-}
-
-.bg-5{
-    background-color: #b4d0e6;
-    margin-left: 20rem;
-}
-
-.bg-2{
-    background-color: palevioletred;
-}
-
-.main-text{
-    height: 10rem;
-    width: 70rem;
-    font-size: 2.3rem;
-}
-
-.bg-3{
-    background-color: green;
-}
-
-.main-paragraph{
-    height: 8rem;
-    width: 20rem;
-    font-size: 1rem;
-    margin-top: 3rem;
-}
-
-.bt-1{
-    height: 3rem;
-    width: 15rem;
-    margin-top: 1rem;
-}
-
-.bt-2{
-    height: 1rem;
-    width: 2rem;
-    margin-top: 10rem;
-    font-size: 3rem
+.main-paragraph p{
+    margin: 40px 0px 40px 0px;
 }
 
 .jumbo{
-  height: 38rem;
-  float: right;
-  margin-top: -13rem;
-  margin-right: 7rem;
+  height: 600px;
+  margin-top: 30px ;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 8rem;
+}
+
+
+/*section plans*/
+
+.container-sm{
+    width: 60%;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.col-1{
+    width: calc(100%/3);
+    border: 1px solid gray;
+}
+
+.col-2{
+    margin-top: 70px;
+    width: 100%;
+    height: 250px;
+    border: 1px solid gray;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.partner{
+  height: 500px;
+}
+
+.col-3{
+    width: calc(100%/5);
+}
+
+
+.plan-category{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.plan hr{
+    width: 15%;
+    margin-left: 20px;
+}
+
+.plan-name-price{
+    margin: 10px;
+    font-weight:bold;
+}
+
+.plan-durata{
+    color: gray;
+    margin: 30px;
+}
+
+.desc-1{
+    margin: 10px;
+}
+
+.desc-2{
+    margin: 10px;
+
+}
+
+.desc-3{
+ 
+    margin: 0px 10px 40px 10px;
+}
+
+
+.bt-plan{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+    margin: 10px;
+  }
+
+ .plan-acquista{
+    margin: 30px 10px 40px 10px;
+ }
+
+ .plan-details{
+    padding: 5px;
+ }
+
+ .plan-details span{
+    font-weight: bold;
+ }
+
+ .plan-large{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+ }
+
+ .plan-p{
+    margin-top: 7rem;
+    width: 60%;
+    margin-left: 20px;
+ }
+
+ .botton{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+    text-decoration: none;
+    margin: 10px;
+    float: right;
+ }
+
+.plan-ent{
+    margin-left: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    padding: 2rem;
 }

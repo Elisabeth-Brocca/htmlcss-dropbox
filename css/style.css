@@ -42,7 +42,7 @@ header{
 
 
 .list-unstyled{
-    list-style-type: none;
+    list-style: none;
     display: flex;
     gap: 1rem;
 }
@@ -52,13 +52,39 @@ header{
     color: black;
 }
 
+/*all button*/
+
 .bt-inizia{
     color: white;
     background-color: #0061fe;
     border: 1px solid #0061fe;
     border-width: 0.5rem;
 }
+.button{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+    text-decoration: none;
+    margin: 10px;
+    float: right;
+}
 
+ .bt-blue{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+}
+
+.bt-plan{
+    color: white;
+    background-color: #0061fe;
+    border: 1px solid #0061fe;
+    border-width: 0.5rem;
+    margin: 10px;
+    text-decoration: none;
+}
 
 
 /*main*/
@@ -89,14 +115,6 @@ h1{
     margin-left: 20rem;
 }
 
-.bt-blue{
-    color: white;
-    background-color: #0061fe;
-    border: 1px solid #0061fe;
-    border-width: 0.5rem;
-}
-
-
 .main-paragraph p{
     margin: 40px 0px 40px 0px;
 }
@@ -120,17 +138,20 @@ h1{
     margin: auto;
 }
 
+.card{
+    border: 1px solid gray;
+    margin: 10px;
+    height: 110%;
+}
 
 .col-1{
     width: calc(100%/3);
-    border: 1px solid gray;
 }
 
 .col-2{
-    margin-top: 70px;
+    margin-top: 75px;
     width: 100%;
     height: 250px;
-    border: 1px solid gray;
 }
 
 .row{
@@ -185,16 +206,6 @@ h1{
     margin: 0px 10px 40px 10px;
 }
 
-
-.bt-plan{
-    color: white;
-    background-color: #0061fe;
-    border: 1px solid #0061fe;
-    border-width: 0.5rem;
-    margin: 10px;
-    text-decoration: none;
-  }
-
  .plan-acquista{
     margin: 30px 10px 40px 10px;
  }
@@ -221,16 +232,6 @@ h1{
     margin-left: 20px;
  }
 
- .button{
-    color: white;
-    background-color: #0061fe;
-    border: 1px solid #0061fe;
-    border-width: 0.5rem;
-    text-decoration: none;
-    margin: 10px;
-    float: right;
- }
-
 .plan-ent{
     margin-left: 20px;
 }
@@ -248,11 +249,28 @@ h1{
 }
 
 /*section operazioni*/
-    
+
+.operazioni-img{
+    height: 250px;
+}
+
+/*team*/
+
+.text-team{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
 
 /*footer*/
 
 footer{
     background-color: black;
     padding: 2rem;
+    color: white;
+}
+
+.list-2{
+    list-style: none;
+    gap: 100px;
 }

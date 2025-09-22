@@ -14,11 +14,6 @@ body{
     font-family: sans-serif;
 }
 
-[class^="col-"]{
-    height: 600px;
-}
-
-
 section{
     padding: 160px 0;
 }
@@ -146,6 +141,8 @@ h1{
 
 .col-1{
     width: calc(100%/3);
+    height: 700px;
+    padding: 10px;
 }
 
 .col-2{
@@ -164,9 +161,6 @@ h1{
   height: 500px;
 }
 
-.col-3{
-    width: calc(100%/5);
-}
 
 
 .plan-category{
@@ -198,39 +192,39 @@ h1{
 
 .desc-2{
     margin: 10px;
-
+    
 }
 
 .desc-3{
- 
+    
     margin: 0px 10px 40px 10px;
 }
 
- .plan-acquista{
+.plan-acquista{
     margin: 30px 10px 40px 10px;
- }
+}
 
- .plan-details{
+.plan-details{
     padding: 5px;
- }
+}
 
- .plan-details span{
+.plan-details span{
     font-weight: bold;
- }
+}
 
- .plan-large{
+.plan-large{
     width: 100%;
     display: flex;
     justify-content: center;
     border: 1px solid gray;
     margin-bottom: 10px;
- }
+}
 
- .plan-p{
+.plan-p{
     margin-top: 7rem;
     width: 60%;
     margin-left: 20px;
- }
+}
 
 .plan-ent{
     margin-left: 20px;
@@ -245,13 +239,15 @@ h1{
 
 
 .text-partner{
-       margin-top: 100px;
+    margin-top: 100px;
 }
 
 /*section operazioni*/
 
 .operazioni-img{
     height: 250px;
+    padding: 10px;
+    margin-left: -50px;
 }
 
 /*team*/
@@ -266,11 +262,27 @@ h1{
 
 footer{
     background-color: black;
-    padding: 2rem;
+    padding: 4rem;
     color: white;
 }
 
+
+.col-3{
+    width: 20%
+}
+
 .list-2{
+    padding: 5px;
     list-style: none;
-    gap: 100px;
+    color: gray;
+    font-size: 15px;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.italiano{
+    padding: 50px;
+    margin-left: 50px;
 }
